@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wrapperGral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(./img/old-bus-15.jpg);
+  height: 100vh;
+}
+
+#wrapperGral #wrapperTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapperGral #wrapperTitulo #wrapperImg {
+  margin-bottom: 60px;
+}
+
+#wrapperGral #wrapperTitulo #wrapperImg img {
+  border-radius: 200px;
+  width: 100%;
+}
+
+#wrapperGral #wrapperTitulo h1 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 200px;
+  z-index: 2;
+  position: absolute;
+}
+
+#wrapperGral form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid grey;
+  border-radius: 25px;
+  width: 25%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  min-width: 320px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+#wrapperGral form #wrapperSeleccionGral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding: 15px;
+}
+
+#wrapperGral form #wrapperSeleccionGral .wrapperSeleccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+#wrapperGral form #wrapperSeleccionGral .wrapperSeleccion label {
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#wrapperGral form #wrapperSeleccionGral .wrapperSeleccion select {
+  padding: 10px;
+  border-radius: 15px;
+  min-width: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+#wrapperGral form #wrapperDatePass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperCantPasajes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 55%;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperCantPasajes label {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperCantPasajes input {
+  width: 65%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperDate {
+  width: 55%;
+  margin-top: 15px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperDate label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+#wrapperGral form #wrapperDatePass #wrapperDate input {
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+#wrapperGral form #wrapperHorario {
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#wrapperGral form #wrapperHorario label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+#wrapperGral form #wrapperHorario select {
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid grey;
+}
+
+#wrapperGral form #submitBtn {
+  margin-top: 20px;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  background: #02d2e7;
+  background: #02d2e7;
+  background: linear-gradient(167deg, #02d2e7 23%, #0081ff 55%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: whitesmoke;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  margin-bottom: 15px;
+}
+
+#wrapperGral form #submitBtn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=styles.css.map */

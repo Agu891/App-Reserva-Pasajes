@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wrapperTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapperTitulo #wrapperImg {
+  margin-bottom: 60px;
+}
+
+#wrapperTitulo #wrapperImg img {
+  border-radius: 200px;
+  width: 100%;
+}
+
+#wrapperTitulo h1 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 200px;
+  z-index: 2;
+  position: absolute;
+}
+
+#wrapperBoletoTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wrapperBoletoTitulo h1 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+#wrapperBoletoTitulo #boletoWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding-bottom: 15px;
+  width: 70%;
+  max-width: 350px;
+}
+
+#wrapperBoletoTitulo p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#datosWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#datosWrapper h2 {
+  margin: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#datosWrapper label {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5px;
+}
+
+#datosWrapper input {
+  padding: 10px;
+}
+
+#datosWrapper #btnPago {
+  margin-top: 20px;
+  border: none;
+  width: 50%;
+  max-width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  background: #02d2e7;
+  background: #02d2e7;
+  background: linear-gradient(167deg, #02d2e7 23%, #0081ff 55%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: whitesmoke;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+#datosWrapper #submitBtn:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=styles.css.map */

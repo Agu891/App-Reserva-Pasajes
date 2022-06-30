@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Reserva Pasajes</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="wrapperGral">
+      <div id="wrapperTitulo">
+        <div id="wrapperImg">
+          <img src="./img/Newlogo.png" alt="logo con autobus" />
+        </div>
+        <h1>Pasajes Online</h1>
+      </div>
+
+      <form onsubmit="submitInfo(event)">
+        <div id="wrapperSeleccionGral">
+          <div id="wrapperSeleccionA" class="wrapperSeleccion">
+            <label for="#localidadesA" id="labelA"> Partida </label>
+            <select
+              name="localidades"
+              id="localidadesA"
+              onclick="elegirDestino(event)"
+            >
+              <option value="Carhué">Carhué</option>
+              <option value="Bahia Blanca">Bahia Blanca</option>
+              <option value="La Plata">La Plata</option>
+              <option value="Buenos Aires">Buenos Aires</option>
+            </select>
+          </div>
+          <div id="wrapperSeleccionB" class="wrapperSeleccion">
+            <label for="#localidadesB"> Destino</label>
+            <select
+              name="localidades"
+              id="localidadesB"
+              onclick="elegirDestino(event)"
+            >
+              <option value="Carhué">Carhué</option>
+              <option value="Bahia Blanca">Bahia Blanca</option>
+              <option value="La Plata">La Plata</option>
+              <option value="Buenos Aires">Buenos Aires</option>
+            </select>
+          </div>
+        </div>
+        <div id="wrapperDatePass">
+          <div id="wrapperCantPasajes">
+            <label for="cantPasajes">Cant. de pasajes</label>
+            <input type="text" id="cantPasajes" />
+          </div>
+          <div id="wrapperDate">
+            <label for="date">Fecha </label>
+            <input type="date" name="" id="date" />
+          </div>
+        </div>
+        <div id="wrapperHorario">
+          <label for="time">Horario de Partida</label>
+          <select name="time" id="time"></select>
+        </div>
+        <button type="submit" id="submitBtn">Ir a pagar</button>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+$fuenteBase: "Open Sans", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapperGral {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./img/old-bus-15.jpg);
+  height: 100vh;
+  #wrapperTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #wrapperImg {
+      margin-bottom: 60px;
+      img {
+        border-radius: 200px;
+        width: 100%;
+      }
+    }
+    h1 {
+      font-family: $fuenteBase;
+      margin-top: 200px;
+      z-index: 2;
+      position: absolute;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 25%;
+    align-self: center;
+    min-width: 320px;
+    backdrop-filter: blur(5px);
+
+    #wrapperSeleccionGral {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      align-self: center;
+      padding: 15px;
+
+      .wrapperSeleccion {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        font-weight: 600;
+        font-family: $fuenteBase;
+        label {
+          text-align: center;
+          margin-bottom: 5px;
+          font-family: $fuenteBase;
+          color: black;
+          font-size: 1.5rem;
+        }
+        select {
+          padding: 10px;
+          border-radius: 15px;
+          min-width: 150px;
+          font-family: $fuenteBase;
+          font-weight: 500;
+        }
+      }
+    }
+
+    #wrapperDatePass {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      #wrapperCantPasajes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        align-self: center;
+        width: 55%;
+        label {
+          color: white;
+          font-family: $fuenteBase;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        input {
+          width: 65%;
+          padding: 10px;
+          text-align: center;
+          border-radius: 15px;
+          border: 1px solid grey;
+        }
+      }
+      #wrapperDate {
+        width: 55%;
+        margin-top: 15px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+
+        label {
+          font-family: $fuenteBase;
+          font-size: 1rem;
+          color: white;
+          font-weight: 500;
+          text-align: center;
+        }
+        input {
+          padding: 10px;
+          text-align: center;
+          border-radius: 15px;
+          border: 1px solid grey;
+        }
+      }
+    }
+
+    #wrapperHorario {
+      align-self: center;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      label {
+        font-family: $fuenteBase;
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+      }
+      select {
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+        border: 1px solid grey;
+      }
+    }
+    #submitBtn {
+      margin-top: 20px;
+      border: none;
+      padding: 15px;
+      border-radius: 15px;
+      background: rgb(2, 210, 231);
+      background: rgb(2, 210, 231);
+      background: linear-gradient(
+        167deg,
+        rgba(2, 210, 231, 1) 23%,
+        rgba(0, 129, 255, 1) 55%
+      );
+      font-family: $fuenteBase;
+      font-size: 1rem;
+      font-weight: 500;
+      color: whitesmoke;
+      cursor: pointer;
+      transition: 200ms;
+      margin-bottom: 15px;
+    }
+    #submitBtn:active {
+      transform: scale(0.9);
+    }
+  }
+}
