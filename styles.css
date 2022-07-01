@@ -47,9 +47,10 @@ body {
 
 #wrapperGral #wrapperTitulo h1 {
   font-family: "Open Sans", sans-serif;
-  margin-top: 200px;
+  margin-top: 150px;
   z-index: 2;
   position: absolute;
+  font-size: 1rem;
 }
 
 #wrapperGral form {
