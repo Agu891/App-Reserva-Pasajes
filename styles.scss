@@ -7,19 +7,21 @@ $fuenteBase: "Open Sans", sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
-
-#wrapperGral {
-  display: flex;
-  flex-direction: column;
+body {
   background-image: url(./img/old-bus-15.jpg);
   background-position: center;
   background-repeat: no-repeat;
+}
+#wrapperGral {
+  display: flex;
+  flex-direction: column;
 
   #wrapperTitulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     #wrapperImg {
+      margin-top: 10px;
       margin-bottom: 60px;
       img {
         border-radius: 200px;
@@ -44,6 +46,7 @@ $fuenteBase: "Open Sans", sans-serif;
     align-self: center;
     min-width: 320px;
     backdrop-filter: blur(5px);
+    padding: 25px;
 
     #wrapperSeleccionGral {
       display: flex;
@@ -60,6 +63,7 @@ $fuenteBase: "Open Sans", sans-serif;
         font-weight: 600;
         font-family: $fuenteBase;
         label {
+          text-transform: uppercase;
           text-align: center;
           margin-bottom: 5px;
           font-family: $fuenteBase;
@@ -94,7 +98,7 @@ $fuenteBase: "Open Sans", sans-serif;
           font-weight: 500;
         }
         input {
-          width: 65%;
+          width: 100%;
           padding: 10px;
           text-align: center;
           border-radius: 15px;

@@ -162,7 +162,7 @@ const submitInfo = (event) => {
             <label for="numSeguridad">Ingrese el codigo de seguridad</label>
             <input
               type="password"
-              
+              inputmode="numeric"
               id="numSeguridad"
               maxlength="3"
               placeholder="codigo 3 digitos"

@@ -127,6 +127,7 @@
   cursor: pointer;
   -webkit-transition: 200ms;
   transition: 200ms;
+  margin-bottom: 25px;
 }
 
 #datosWrapper #submitBtn:active {

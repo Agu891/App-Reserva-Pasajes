@@ -6,6 +6,12 @@
           box-sizing: border-box;
 }
 
+body {
+  background-image: url(./img/old-bus-15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #wrapperGral {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,9 +20,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(./img/old-bus-15.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 #wrapperGral #wrapperTitulo {
@@ -33,6 +36,7 @@
 }
 
 #wrapperGral #wrapperTitulo #wrapperImg {
+  margin-top: 10px;
   margin-bottom: 60px;
 }
 
@@ -67,6 +71,7 @@
   min-width: 320px;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  padding: 25px;
 }
 
 #wrapperGral form #wrapperSeleccionGral {
@@ -102,6 +107,7 @@
 }
 
 #wrapperGral form #wrapperSeleccionGral .wrapperSeleccion label {
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 5px;
   font-family: "Open Sans", sans-serif;
@@ -151,7 +157,7 @@
 }
 
 #wrapperGral form #wrapperDatePass #wrapperCantPasajes input {
-  width: 65%;
+  width: 100%;
   padding: 10px;
   text-align: center;
   border-radius: 15px;
