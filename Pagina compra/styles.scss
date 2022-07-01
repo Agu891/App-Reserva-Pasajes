@@ -12,6 +12,7 @@ $fuenteBase: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  backdrop-filter: blur(5px);
   #wrapperImg {
     margin-bottom: 60px;
     img {

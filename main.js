@@ -120,6 +120,7 @@ const submitInfo = (event) => {
         <link rel="stylesheet" href="/Pagina compra/styles.css" />
       </head>
       <body>
+      
       <div id="wrapperTitulo">
         <div id="wrapperImg">
           <img src="./img/Newlogo.png" alt="logo con autobus" />
@@ -169,6 +170,7 @@ const submitInfo = (event) => {
             <button type="submit" id="btnPago">Finalizar Compra</button>
           </div>
         </form>
+        
         <script src="/Pagina compra/pago.js"></script>
       </body>
     </html>
